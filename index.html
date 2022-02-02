@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/src/favicon.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700;900&display=swap"
+    rel="stylesheet">
+  <title>Dark mode</title>
+</head>
+<body>
+  <div id="root"></div>
+  <script type="module" src="/src/main.jsx"></script>
+
+  <style>
+    :root {
+      --white-clr:    hsl(0, 0%, 96%);
+      --darker-clr:   hsl(0, 0%, 7%);
+      --clr-900:      hsl(0, 0%, 13%);
+      --clr-800:      hsl(0, 0%, 26%);
+    }
+
+    *,
+    *::before,
+    *::after {
+      margin: 0;
+      padding: 0;
+    }
+
+    ::-webkit-scrollbar {
+      display: none;
+    }
+
+    html {
+      font-family: 'Source Sans Pro', sans-serif;
+      font-size: 62.5%;
+    }
+
+    body {
+      font-size: 1.6rem;
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+    }
+  </style>
+</body>
+</html>

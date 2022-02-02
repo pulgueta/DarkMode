@@ -1,0 +1,4 @@
+.dark {
+    background-color: var(--darker-clr);
+    min-height: 100vh;
+}
