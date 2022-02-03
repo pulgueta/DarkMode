@@ -7,7 +7,7 @@
 }
 
 .dark img {
-    max-width: 25%;
+    max-width: 15rem;
     border-radius: 100%;
 }
 
@@ -54,6 +54,11 @@
     font-weight: 200;
 }
 
+
+.card .icons {
+    margin-top: 5em;
+    text-align: end;
+}
 
 .card .icons svg {
     margin-right: 2rem;
